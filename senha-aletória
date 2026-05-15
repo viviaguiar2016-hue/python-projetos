@@ -1,0 +1,10 @@
+import random
+senha=""
+caractere="xnsenhjjskj21snha@x0"
+for digito in range(8):
+    aleatorio=random.choice(caractere)
+    senha+=aleatorio
+
+print("-"*20)
+print("senha:")
+print(senha)
